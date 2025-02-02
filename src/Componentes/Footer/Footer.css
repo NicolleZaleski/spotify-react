@@ -1,0 +1,36 @@
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to right, #912079,#3d70bf);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .rodape{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--cor-primaria-2);
+    padding: 20px 40px;
+    font-size: 14px;
+}
+
+footer .button-rodape{
+    padding: 20px 50px 20px 0;
+}
+
+footer button{
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--cor-primaria-1);
+    border-radius: 20px;
+}
+
+footer button:hover{
+    transform: scale(1.1);
+}

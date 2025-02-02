@@ -1,0 +1,103 @@
+.main-container{
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 370px;
+    margin-right: 56px;
+}
+
+.header_navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: var(--cor-sidebar);
+    padding: 16px;
+}
+
+.header_navigation .navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_navigation .navigation .arrow-left{
+    margin-right: 1.25rem;
+}
+
+.arrow-left, .arrow-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header_search{
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 30px;
+    background-color: var(--cor-sidebar-library);
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header_search img{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header_search input{
+    background: transparent;
+    border: none;
+    padding: 0 0 0 20px;
+    color: var(--cor-primaria-2);
+    text-overflow: ellipsis;   /*quebrar o texto com 3 pontinhos */
+    overflow: hidden;
+    white-space: nowrap;  /*deixar o texto numa linha só quando quebrar o texto*/
+    outline: none;  /*não tirar a barrinha quando for digitar */
+    font-family: var(--font-dm-sans);
+}
+
+.header_login{
+    display: flex;
+    align-items: center;
+}
+
+.header_login .subscribe{
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    margin-left: 100px;
+    border: none;
+}
+
+.header_login .subscribe:hover{
+    color: var(--cor-primaria-2);
+    transform: scale(1.1);
+}
+
+.header_login .login{
+    width: 100px;
+    height: 48px;
+    color: var(--cor-primaria-1);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    border: none;
+}
+
+.header_login .login:hover{
+    background-color: #d8d7d7;
+    transform: scale(1.1);
+}
